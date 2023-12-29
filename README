@@ -1,21 +1,24 @@
-To use the demo script 
+To Use the Demo Script
 
-Install all dependecies
-- yarn install
+Install All Dependencies
+    Run yarn install
 
-Config the transactions settings in file /src/index.ts
-const DESTINATION_WALLET = '';
-const TOKEN_AMOUNT = '1.05';
-const TOKEN_NAME = 'USDC';
-const NETWORKNAME = 'MUMBAI'; //MATIC or MUMBAI
-const MNEMONIC = 'REPLACE WITH YOUR 12 WORDS';
-const WALLET_ACCOUNT_ID = 0
+Configure the Transaction Settings in /src/index.ts
+    Edit the following parameters:
 
-If you are testing on MUMBAI 
-- Claim some free Matic via https://mumbaifaucet.com/
-- Claim some free USDC via https://faucet.circle.com
+    const DESTINATION_WALLET = '';
+    const TOKEN_AMOUNT = '1.05';
+    const TOKEN_NAME = 'USDC';
+    const NETWORK_NAME = 'MUMBAI'; // Options: MATIC or MUMBAI
+    const MNEMONIC = 'REPLACE WITH YOUR 12 WORDS';
+    const WALLET_ACCOUNT_ID = 0;
 
-Yarn build
+If Testing on MUMBAI Network
+    Claim some free Matic at https://mumbaifaucet.com/.
+    Claim some free USDC at https://faucet.circle.com.
 
-To run 
-Yarn start
+Build the Project
+    Run yarn build
+
+To Run the Script
+    Run yarn start
