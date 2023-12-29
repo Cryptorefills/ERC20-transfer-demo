@@ -7,7 +7,7 @@ const TOKEN_AMOUNT = '1.05';
 const TOKEN_NAME = 'USDC';
 const NETWORKNAME = 'MUMBAI'; //MATIC or MUMBAI
 const MNEMONIC =  'REPLACE WITH YOUR 12 WORDS';
-const WALLET_ACCOUNT_ID = 15
+const WALLET_ACCOUNT_ID = 0
 
 
 const walletForCounter = (mnemonic: string, baseDerivationPath: string, provider:providers.Provider, i: number) => {
